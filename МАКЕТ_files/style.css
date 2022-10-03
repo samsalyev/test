@@ -1,0 +1,961 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: 'Inter', sans-serif;
+}
+nav {
+    margin: 30px 20px;
+}
+/* nav span{
+     margin: 0 40px;
+} */
+.icon-logo {
+ display: inline-block;
+ margin-left: 40px;
+ }
+ .auth {
+display: inline-block;
+margin-left: 290px;
+ }
+ .links {
+display: inline-block;
+margin-left: 250px;
+ }
+ .links span {
+margin: 0 20px;
+ }
+.btns {
+    margin-top: 116px;
+    margin-left: 550px;
+}
+#btns-1{
+height: 32px;
+width: 108px;
+background: #81C43B;
+border: 0;
+color: #ffffff;
+border-radius: 100px;
+position: absolute;
+z-index: 1;
+}
+#btns-2{
+    margin-left: 70px;
+    position: relative;
+   height: 32px;
+    width: 209px;
+    border: 0;
+    border-radius: 0px 100px 100px 0px;
+}
+.block-1{
+    display: flex;
+    justify-content: center;
+}
+.h1{
+    width: 760px;
+height: 144px;
+left: 340px;
+top: 252px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 72px;
+/* or 112% */
+
+text-align: center;
+
+color: #35414B;
+}
+
+.p {
+    width: 505px;
+    height: 48px;
+    left: 473px;
+    top: 420px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    text-align: center;
+    
+    color: #4E5A65;
+    
+} 
+
+.mail {
+    background-color: white;
+   text-align: center;
+   margin-top: 24px;
+}
+#click-1 {
+    box-sizing: border-box;
+    border:1px solid rgba(121, 76, 255, 1);
+
+
+width: 164px;
+height: 52px;
+left: 0px;
+top: 10px;
+
+background: #794CFF;
+border: 1px solid #794CFF;
+color: white;
+border-radius: 0px 4px 4px 0px;
+}
+
+.photo {
+    position: absolute;
+    width: 920px;
+    height: 654.29px;
+    left: 240px;
+    top: 586px;
+    
+    background: url(Graph 2.png);
+    box-shadow: 0px 0px 48px -8px rgba(29, 40, 48, 0.18);
+}
+.mail input {
+    height: 52px;
+    width: 312px;
+    text-align: center;
+}
+.trust{
+    position: absolute;
+width: 397px;
+height: 16px;
+left: 522px;
+top: 1347px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+
+text-align: center;
+
+color: #4E5A65;
+}
+.google{
+    position: absolute;
+width: 80px;
+height: 26.11px;
+left: 250px;
+top: 1387px;
+}
+.airbnb{
+ position: absolute;
+width: 80px;
+height: 24.96px;
+left: 462px;
+top: 1388px;
+}
+.grouo{
+ position: absolute;
+left: 45.81%;
+right: 47.84%;
+top: 302.62%;
+bottom: 70.04%
+}
+.vectorr{
+position: absolute;
+left: 61.88%;
+right: 32.57%;
+top: 302.56%;
+bottom: 69.94%;
+}
+.slack{
+position: absolute;
+width: 80px;
+height: 20.24px;
+left: 1110px;
+top: 1390px;
+}
+.op{
+    position: absolute;
+    width: 657px;
+    height: 518px;
+    left: 165px;
+    top: 1575px;
+    background: url(Group 25.png); 
+}
+.recta{
+    box-sizing: border-box;
+
+position: absolute;
+width: 372px;
+height: 128px;
+left: 902px;
+top: 1591px;
+
+background: #F6F3FC;
+border: 1px solid #F6F3FC;
+border-radius: 0px 8px 8px 0px;
+}
+.recta{
+    position: absolute;
+    width: 8px;
+    height: 128px;
+    left: 902px;
+    top: 1591px;
+    background: #794CFF;
+}
+.team{
+    position: absolute;
+width: 153px;
+height: 18px;
+left: 934px;
+top: 1617px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 18px;
+/* identical to box height, or 100% */
+
+
+color: #35414B;
+
+}
+.powerful{
+    position: absolute;
+    width: 308px;
+    height: 48px;
+    left: 934px;
+    top: 1645px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    
+    color: #4E5A65;
+}
+.resolve{
+    position: absolute;
+    width: 196px;
+    height: 18px;
+    left: 936px;
+    top: 1745px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+    
+    
+    color: #35414B;
+
+}
+.anony{
+    position: absolute;
+width: 308px;
+height: 48px;
+left: 934px;
+top: 1773px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+color: #4E5A65;
+}
+.plan{
+    position: absolute;
+width: 152px;
+height: 18px;
+left: 934px;
+top: 1873px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 18px;
+/* identical to box height, or 100% */
+
+
+color: #35414B;
+}
+.plan2{
+    position: absolute;
+    width: 308px;
+    height: 48px;
+    left: 934px;
+    top: 1901px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    
+    color: #4E5A65;
+
+}
+.plan3{
+    position: absolute;
+    width: 175px;
+    height: 18px;
+    left: 934px;
+    top: 2001px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+    
+    
+    color: #35414B;
+    
+    
+}
+.plan4{
+    position: absolute;
+width: 308px;
+height: 48px;
+left: 934px;
+top: 2029px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+color: #4E5A65;
+}
+.plan5{
+    position: absolute;
+width: 436px;
+height: 40px;
+left: 501px;
+top: 2254px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 40px;
+/* identical to box height, or 100% */
+
+text-align: center;
+
+color: #35414B;
+}
+.plan6{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 165px;
+    top: 2350px;
+    
+    background: #FEF6EE;
+}
+.plan7{
+ position: absolute;
+width: 64px;
+height: 64px;
+left: 165px;
+top: 2350px;
+
+
+}
+.plan8{
+    position: absolute;
+width: 64px;
+height: 64px;
+left: 591px;
+top: 2350px;
+
+}
+ .plan9{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 953px;
+    top: 2350px;
+    
+} 
+.plan10{
+    position: absolute;
+    width: 213px;
+    height: 18px;
+    left: 165px;
+    top: 2438px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #35414B;    
+} 
+.plan11{
+    position: absolute;
+    width: 306px;
+    height: 48px;
+    left: 165px;
+    top: 2464px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    
+    color: #4E5A65;
+
+}
+.plan12{
+    position: absolute;
+width: 143px;
+height: 18px;
+left: 591px;
+top: 2438px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 18px;
+/* identical to box height, or 100% */
+
+display: flex;
+align-items: center;
+
+color: #35414B;
+}
+.plan13{
+    position: absolute;
+width: 141px;
+height: 18px;
+left: 953px;
+top: 2438px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 18px;
+/* identical to box height, or 100% */
+
+display: flex;
+align-items: center;
+
+color: #35414B;
+
+}
+.plan14{
+    position: absolute;
+    width: 230px;
+    height: 48px;
+    left: 591px;
+    top: 2464px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    
+    color: #4E5A65;
+}
+ .plan15{
+   
+position: absolute;
+width: 322px;
+height: 48px;
+left: 953px;
+top: 2464px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+color: #4E5A65;
+}
+ .plan16{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 165px;
+    top: 2592px;
+}
+.plan17{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 591px;
+    top: 2592px;
+    
+} 
+.plan18{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 953px;
+    top: 2592px;
+} 
+ .plan19{
+    position: absolute;
+    width: 204px;
+    height: 18px;
+    left: 165px;
+    top: 2680px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #35414B;
+} 
+.plan20{
+    position: absolute;
+    width: 181px;
+    height: 18px;
+    left: 591px;
+    top: 2680px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #35414B;
+} 
+ .plan21{
+    position: absolute;
+    width: 174px;
+    height: 18px;
+    left: 953px;
+    top: 2680px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #35414B;
+    
+} 
+.plan22{
+    position: absolute;
+    width: 311px;
+    height: 48px;
+    left: 165px;
+    top: 2706px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    
+    color: #4E5A65;
+    
+}
+.plan23{
+    position: absolute;
+    width: 231px;
+    height: 48px;
+    left: 591px;
+    top: 2706px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    
+    color: #4E5A65;
+    
+} 
+ .plan24{
+    position: absolute;
+    width: 316px;
+    height: 48px;
+    left: 953px;
+    top: 2706px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    
+    color: #4E5A65;
+    
+} 
+.plan25{
+    position: absolute;
+    width: 597px;
+    height: 405px;
+    left: 668px;
+    top: 2921px;
+    
+    background: url(Group 26.png);
+} 
+ .plan26{
+    position: absolute;
+    width: 341px;
+    height: 96px;
+    left: 165px;
+    top: 2986px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    /* or 120% */
+    
+    
+    color: #35414B;
+} 
+ .plan27{
+    position: absolute;
+    width: 413px;
+    height: 72px;
+    left: 165px;
+    top: 3106px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    
+    color: #4E5A65;
+} 
+.plan28{
+    position: absolute;
+    width: 164px;
+    height: 52px;
+    left: 165px;
+    top: 3210px;
+    
+    background: #796EFF;
+    border-radius: 4px;
+} 
+ .plan29{
+    position: absolute;
+    width: 122px;
+    height: 16px;
+    left: 186px;
+    top: 3228px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}  
+.plan30{
+    position: absolute;
+    width: 394px;
+    height: 96px;
+    left: 522px;
+    top: 3494px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    /* or 120% */
+    
+    text-align: center;
+    
+    color: #35414B;
+    
+} 
+ .plan31{
+    position: absolute;
+    width: 543px;
+    height: 96px;
+    left: 448px;
+    top: 3638px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+    
+    text-align: center;
+    
+    color: #4E5A65;
+} 
+
+
+.plan32{
+    position: absolute;
+    width: 264px;
+    height: 4px;
+    left: 244px;
+    top: 3782px;
+    
+    background: #35414B;
+} 
+ .plan33{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 260px;
+    top: 3810px;
+    
+    background: url(.png);
+}  
+.plan34{
+    position: absolute;
+    width: 129px;
+    height: 16px;
+    left: 324px;
+    top: 3814px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    
+    
+    color: #4E5A65;
+    
+} 
+.plan35{
+    position: absolute;
+    width: 100px;
+    height: 16px;
+    left: 324px;
+    top: 3838px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    
+    
+    color: #4E5A65;
+    
+} 
+.plan36{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 598px;
+    top: 3810px;
+    
+    background: url(.png);
+} 
+ .plan37{
+    position: absolute;
+    width: 108px;
+    height: 16px;
+    left: 662px;
+    top: 3814px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    
+    
+    color: #4E5A65;
+    
+} 
+ .plan38{
+    position: absolute;
+    width: 163px;
+    height: 16px;
+    left: 662px;
+    top: 3838px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    
+    
+    color: #4E5A65;
+    
+} 
+.plan39{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 966px;
+    top: 3810px;
+    
+    background: url(.png);
+} 
+ .plan40{
+    position: absolute;
+    width: 68px;
+    height: 16px;
+    left: 1030px;
+    top: 3814px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    
+    
+    color: #4E5A65;
+    
+} 
+.plan41{
+    position: absolute;
+    width: 151px;
+    height: 16px;
+    left: 1030px;
+    top: 3838px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* identical to box height, or 100% */
+    
+    
+    color: #4E5A65;
+} 
+.plan42{
+    position: absolute;
+    width: 1110px;
+    height: 224px;
+    left: 165px;
+    top: 3958px;
+    
+    background: #796EFF;
+    border-radius: 16px;
+} 
+.plan43{
+
+    position: absolute;
+    width: 423px;
+    height: 96px;
+    left: 245px;
+    top: 4022px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    /* or 150% */
+    
+    
+    color: #FFFFFF;
+}  
+.plan44{
+    position: absolute;
+    width: 180px;
+    height: 53.35px;
+    left: 811px;
+    top: 4043px;
+} 
+ .plan45{
+    position: absolute;
+    left: 75.49%;
+    right: 40.01%;
+    top: 783.04%;
+    bottom: 12.83%;
+    
+} 
+.plan46{
+    position: absolute;
+    width: 1505px;
+    height: 417px;
+    left: -33px;
+    top: 4282px;
+    
+    background: #1D2830;
+} 
+ .plan47{
+    position: relative;
+    width: 1440px;
+    height: 4699px;
+    
+    background: #FFFFFF;
+} 
+/* .plan14{
+
+} */ 
